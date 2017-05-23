@@ -1,1 +1,6 @@
-
+<% @product.each do |t| %>
+<%= t.name %>
+<%= t.price %>
+<%= t.description %>
+<%= t.inventory %>
+<% end %>
